@@ -155,10 +155,10 @@ def show_dshboard(user_id):
 
         return result.get() if result.get() else None
 # The dashboard's buttons
-tk.Button(dashboard, text="Check Balance", command=check_balance).pack(pady=5)
-tk.Button(dashboard, text="Deposit", command=deposit).pack(pady=5)
-tk.Button(dashboard, text="Withdraw", command=withdraw).pack(pady=5)
-tk.Button(dashboard, text="Edit Info", command=update_info).pack(pady=5)
+     tk.Button(dashboard, text="Check Balance", command=check_balance).pack(pady=5)
+     tk.Button(dashboard, text="Deposit", command=deposit).pack(pady=5)
+     tk.Button(dashboard, text="Withdraw", command=withdraw).pack(pady=5)
+     tk.Button(dashboard, text="Edit Info", command=update_info).pack(pady=5)
 
 
 # GUI Setup
